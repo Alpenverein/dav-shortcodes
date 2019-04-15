@@ -10,8 +10,7 @@ function custom_shortcode_newsletter( $atts, $content=null ) {
     // Attributes
     $atts = shortcode_atts(
         array(
-            'titel' => 'Newsletter bestellen',
-            'text' => 'Hier können Sie unseren Newsletter bestellen',
+            'titel' => 'Newsletter',
         ),
         $atts
     );
@@ -23,8 +22,7 @@ function custom_shortcode_newsletter( $atts, $content=null ) {
 	
 	<div class="card">
 	    <div class="card-header bg-primary"><h2 class="pt-0 m-0">'.$atts['titel'].'</h2></div>
-	    <div class="card-body">
-	      <p>'.$atts['text'].'</p>';
+	    <div class="card-body">';
 
     $return .= do_shortcode($content);
 

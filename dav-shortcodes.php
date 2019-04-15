@@ -3,7 +3,7 @@
 Plugin Name:  DAV Shortcodes
 Plugin URI:   https://template.alpenverein.de/index.php/faq/shortcodes/
 Description:  Dieses Plugin hilft beim Layouten von Inhalten.
-Version:      1.0.3
+Version:      1.0.4
 Author:       Deutscher Alpenverein
 Author URI:   https://template.alpenverein.de/
 License:      GPL2
