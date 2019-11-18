@@ -25,3 +25,4 @@ require_once "shortcodes_tabs.php";
 require_once "shortcodes_typography.php";
 require_once "shortcodes_functions.php";
 require_once "shortcodes_grid.php";
+require_once "shortcodes_menu.php";
